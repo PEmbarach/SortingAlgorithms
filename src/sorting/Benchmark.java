@@ -9,11 +9,10 @@ public class Benchmark {
         }
         
         System.out.println();
-        BubbleSort.sort(numbers);
+        SelectionSort.sort(numbers);
         System.out.println("Sorted array:");
         for (int number : numbers) {
             System.out.print(number + " ");
         }
-        
     }
 }
