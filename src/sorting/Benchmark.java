@@ -9,7 +9,7 @@ public class Benchmark {
         }
         
         System.out.println();
-        InsertionSort .sort(numbers);
+        MergeSort.sort(numbers, 0, numbers.length - 1);
         System.out.println("Sorted array:");
         for (int number : numbers) {
             System.out.print(number + " ");
